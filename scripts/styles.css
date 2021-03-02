@@ -70,7 +70,7 @@
 	left: 0;
 	width: 100%;
 	z-index: 2;
-	background-image:linear-gradient(#f818d3, #ffffff00);
+	background-image:linear-gradient(#f818d3e8, #ffffff00);
 	height: 100px;
 	transition: height 200ms,width 100ms;
 }
@@ -80,7 +80,7 @@
 	left: 0;
 	width: 100%;
 	z-index: 2;
-	background-image:linear-gradient(#ffffff00, #00b5d880);
+	background-image:linear-gradient(#ffffff00, #00b5d8bf);
 	height: 100px;
 	transition: height 200ms,width 100ms;
 }
