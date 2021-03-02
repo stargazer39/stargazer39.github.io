@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>miku 2021</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="js/lottie.min.js"></script>
+	<script type="text/javascript" src="js/lity/lity.min.js"></script>
+	<script type="text/javascript" src="js/changeDisplay.js"></script>
+	<script type="text/javascript" src="js/function.js"></script>
+	<style type="text/css">
+	img{
+		transform: translate(-50%,-39%);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		z-index: 1;
+		width: 100%;
+	}
+	#lottie{
+		position: relative;
+		z-index: 0;
+	}
+	</style>
+</head>
+<body>
+	<div id="lottie">
+		<img src="images/hero_miku.png" ></img>
+	</div>
+	
+	<script type="text/javascript">
+		lottie.loadAnimation({
+		    container: document.getElementById("lottie"),
+		    renderer: "svg",
+		    loop: true,
+		    autoplay: true,
+		    path: "json/bg.json"
+		});
+	</script>
+</body>
+</html>
